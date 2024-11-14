@@ -3,8 +3,8 @@ class Tiendas:
     self.nombre = nombre
     self.inventario = set()
 
-  def agregar_producto(self, codigo):
-    self.inventario.add(codigo)
+  def agregar_producto(self, codigo, nombre):
+    self.inventario.append({"codigo" : codigo, "nombre": nombre})
 
   def buscar_producto(self, codigo):
     #busca un producto por codigo en el inventario
