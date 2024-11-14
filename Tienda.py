@@ -1,4 +1,4 @@
-class Tienda:
+class Tiendas:
   def __init__(self,nombre):
     self.nombre = nombre
     self.inventario = set()
